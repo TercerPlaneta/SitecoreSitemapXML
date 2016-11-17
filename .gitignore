@@ -1,0 +1,65 @@
+
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+*.bak
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+.vs/
+
+node_modules/
+dist/
+
+# Javascript files excluded (Typescript source code)
+21coSln/21co/js/v1/app/*.js
+21coSln/21co/js/v1/app/*.js.map
+21coSln/21co/js/v1/main/*.js
+21coSln/21co/js/v1/main/*.js.map
+
+
+# CSS files excluded (Sass source code)
+21coSln/21co/css/v1/main-*.css
+21coSln/21co/css/v1/main-*.css.map
+
+
+#TDS
+*.scproj.user
+T4RenderCache/
+IconCache/
+BuiltFiles_*.txt
+Package_*/
+
+#Sitecore Rocks
+*.csproj.sitecore
+
+#exclude NuGet Binaries
+packages/
+#include everything in /.nuget folder (Nuget Package Restore)
+!*/.nuget/*
+
+#exclude binaries in /Assemblies
+Assemblies/*.dll
+Assemblies/*.xml
+
+
